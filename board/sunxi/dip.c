@@ -131,7 +131,7 @@ static void dip_detect(void)
 				break;
 
 			case DIP_PID_NTC_VGA:
-				setenv("kernelarg_video", "video=VGA-1:1024x768@60");
+				setenv("kernelarg_video", "video=VGA-1:640x480@60");
 				display = DISPLAY_RGB_VGA_BRIDGE;
 				break;
 			}
