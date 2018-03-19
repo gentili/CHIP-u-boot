@@ -64,7 +64,7 @@ static void dip_setup_pocket_display(enum disp_output display)
 		break;
 
 	case DISPLAY_RGB_VGA_BRIDGE:
-		env_var = "sunxi:1024x768-24@60,monitor=vga";
+		env_var = "sunxi:640x480-24@60,monitor=vga";
 		break;
 
 	case DISPLAY_RGB_POCKET:
